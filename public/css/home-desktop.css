@@ -1,0 +1,28 @@
+@media (min-width: 1280px) {
+    .product-wrapper {
+        width: 50%;
+    }
+    .product {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product-content {
+        width: 100.5%;
+    }
+
+    .product .product-content .description {
+        display: none;
+    }
+
+    .product:hover .product-content .description {
+        display: block;
+    }
+
+    .product .truck-icon {
+        transition: transform 0.5s;
+    }
+
+    .product:hover .truck-icon {
+        transform: rotate(-90deg);
+    }
+}
